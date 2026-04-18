@@ -47,8 +47,42 @@
 
 
 
- const number= +prompt ("please enter your number ")
- console.log(typeof "number");
+//  const number= +prompt ("please enter your number ")
+//  console.log(typeof number);
 
- const randomNumber = Math.floor((Math.random()*5))
+//  const randomNumber = Math.floor((Math.random()*5))
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//date and time practice
+
+let date = new Date();
+console.log(date.toLocaleDateString());
+console.log(date.toDateString());
+console.log(date.getFullYear());
+console.log(date.getHours());
+console.log(date.toTime());
+console.log(date.getSeconds);
+
+
+let date = new Date("2024-06-01");
+console.log(date.toLocaleDateString());
