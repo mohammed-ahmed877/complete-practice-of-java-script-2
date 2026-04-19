@@ -75,14 +75,14 @@
 
 //date and time practice
 
-let date = new Date();
-console.log(date.toLocaleDateString());
-console.log(date.toDateString());
-console.log(date.getFullYear());
-console.log(date.getHours());
-console.log(date.toTime());
-console.log(date.getSeconds);
+// let date = new Date();
+// console.log(date.toLocaleDateString());
+// console.log(date.toDateString());
+// console.log(date.getFullYear());
+// console.log(date.getHours());
+// console.log(date.toTime());
+// console.log(date.getSeconds);
 
 
-let date = new Date("2024-06-01");
-console.log(date.toLocaleDateString());
+// let date = new Date("2024-06-01");
+// console.log(date.toLocaleDateString());

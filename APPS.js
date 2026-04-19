@@ -62,23 +62,23 @@
 
 
 
-function tossCoin() {
-  let random = Math.random(); 
+// function tossCoin() {
+//   let random = Math.random(); 
 
-  let resultText;
-  let imageSrc;
+//   let resultText;
+//   let imageSrc;
 
-  if (random < 0.5) {
-    resultText = "Congratulations! You got Heads";
-   document.querySelector("#carImage").src = "heads.png"; 
-  } else {
-    resultText = "Better luck next time! You got Tails";
-    document.querySelector("#babe").src = "tails.png"; 
-  }
+//   if (random < 0.5) {
+//     resultText = "Congratulations! You got Heads";
+//    document.querySelector("#carImage").src = "heads.png"; 
+//   } else {
+//     resultText = "Better luck next time! You got Tails";
+//     document.querySelector("#babe").src = "tails.png"; 
+//   }
 
-  document.querySelector("#result").textContent = resultText;
+//   document.querySelector("#result").textContent = resultText;
   
-}
+// }
 
 
 
