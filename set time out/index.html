@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Dark gradient background */
+    background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+}
+
+/* Main Box */
+.container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    width: 320px;
+}
+
+/* Title */
+.h1 {
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Time Display */
+.time {
+    font-size: 55px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+/* Buttons */
+button {
+    border: none;
+    padding: 10px 18px;
+    margin: 6px;
+    border-radius: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+/* Individual buttons (soft colors) */
+.start {
+    background: #2e8acc7f;
+    color: white;
+}
+
+.start:hover {
+    background: #279eaea9;
+}
+
+.stop {
+    background: #7690ba;
+    color: white;
+}
+
+.stop:hover {
+    background: #2ba7c0;
+}
+
+.reset {
+    background: #34dbd56f;
+    color: rgb(255, 255, 255);
+}
+
+.reset:hover {
+    background: #352cb441;
+}
+
+.lap {
+    background: #f39c12;
+    color: white;
+}
+
+.lap:hover {
+    background: #d68910;
+}
+
+/* Lap List */
+.laps {
+    margin-top: 15px;
+    max-height: 140px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+/* Each Lap Item */
+.laps div {
+    background: rgba(255,255,255,0.08);
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    color: #ddd;
+    font-size: 14px;
+}</style>
+</head>
+<body>
+   
+   <div class="container">
+    <h1 class="h1">hello set time</h1>
+<div class="time">
+    00:00:00
+</div>
+<button onclick="start()" class="start">start</button>
+<button onclick="stop()" class="stop">stop</button>
+<button onclick="reset()" class="reset">reset</button>
+
+</div>
+
+
+    <script src="apps.js"></script>
+</body>
+</html>
